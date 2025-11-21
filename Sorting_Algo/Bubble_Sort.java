@@ -1,19 +1,10 @@
 package Sorting_Algo;
 
 import java.util.Arrays;
-import java.util.Scanner;
+
 
 public class Bubble_Sort {
-    public static void main(String[] args) {
-//        Scanner sc = new Scanner();
-//        int n;
-//        System.out.println("Enter the size of array");
-//        n = sc.nextInt();
-//        int[] arr = new int[n];
-//        System.out.println("Enter the elements ");
-//        for(int i=0; i<n; i++){
-//            arr[i] = sc.nextInt();
-//        }
+     static void main(String[] args) {
 
         int[] arr =  {2,5,1,3,0};
         int n = arr.length;
@@ -30,6 +21,5 @@ public class Bubble_Sort {
         }
         System.out.println("Sorted Array is: ");
         System.out.println(Arrays.toString(arr));
-//        sc.close();
     }
 }
